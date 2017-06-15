@@ -1,0 +1,28 @@
+{
+  "name": "onassis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Kirren"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*",
+    "font-awesome": "fontawesome#^4.6.3",
+    "bootstrap": "v4.0.0-alpha.6"
+  },
+  "private": true,
+  "devDependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}

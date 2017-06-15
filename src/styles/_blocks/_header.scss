@@ -1,0 +1,42 @@
+.header{
+  background: url("../img/header-bg.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+
+  .headings{
+    padding: 17em 0;
+    h1, h2{
+      text-align: center;
+      font-family: $font-family-base;
+    }
+    h1{
+      font:{
+        weight: 700;
+        size: 9em;
+      }
+    }
+    h2{
+      letter-spacing: 2px;
+      font:{
+        weight: 100;
+        size: 3em;
+      }
+    }
+  }
+
+  .menu{
+    position: absolute;
+    button{
+      span{
+        @include size(40px);
+
+      }
+    }
+    nav{
+      ul{
+        list-style: none;
+        li{}
+      }
+    }
+  }
+}

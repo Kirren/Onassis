@@ -1,0 +1,41 @@
+@mixin placeholder {
+  ::-webkit-input-placeholder {
+    @content;
+  }
+  :-moz-placeholder {
+    @content;
+  }
+  ::-moz-placeholder {
+    @content;
+  }
+  :-ms-input-placeholder {
+    @content;
+  }
+}
+
+
+@mixin phone{
+  @include media-breakpoint-only(xs) { @content; }
+}
+
+@mixin tablet{
+  @include media-breakpoint-only(sm) { @content; }
+}
+
+@mixin desktop{
+  @include media-breakpoint-only(md) { @content; }
+}
+
+@mixin largeDesktop{
+  @include media-breakpoint-only(lg) { @content; }
+}
+
+@mixin extraLargeDesktop{
+  @include media-breakpoint-only(xl) { @content; }
+}
+
+
+@mixin no-side-padding{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
