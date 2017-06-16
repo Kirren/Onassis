@@ -1,11 +1,11 @@
 section.header
-  nav.navbar.navbar-toggleable-xs
-    button.navbar-toggler.navbar-toggler-right(type="button",
-      data-toggle="collapse", data-target="#menu",
-      aria-controls="menu", aria-expanded="false")
-      span
-    div.collapse.navbar-collapse.navbar-inverse#menu
-      a.navbar-brand onassis
+  div.nav-container
+    button.btn.show-menu.col-1
+      //span.navbar-toggler-icon
+      i.fa.fa-bars(aria-hidden="true")
+
+    nav.bg-inverse.col-11#menu
+      a.navbar-brand(href="/#") onassis
       ul.navbar-nav.list-unstyled
         li.nav-item
           a.nav-link(href="#home") home
@@ -19,13 +19,13 @@ section.header
           a.nav-link(href="#contact") contact
       ul.links.list-unstyled
         li
-          a(href="#")
+          a(href="#") fb
         li
-          a(href="#")
+          a(href="#") tw
         li
-          a(href="#")
+          a(href="#") fg
         li
-          a(href="#")
+          a(href="#") em
 
   div.headings
     h1 Onassis
