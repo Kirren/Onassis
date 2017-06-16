@@ -1,0 +1,22 @@
+.grey-text{ color: $grey; }
+
+h3, .jumbotron{
+  text-transform: uppercase;
+  font:{
+    family: "Raleway";
+    size: 24px;
+    weight: 300;
+  };
+}
+
+h3{
+  color: $section-black;
+  font-weight: 300;
+}
+
+.jumbotron{
+  letter-spacing: 1px;
+  background-color: white;
+  font-weight: 700;
+  line-height: 1.1;
+}

@@ -1,19 +1,17 @@
 // Typography
 
-$font-family-base:      'Raleway';
-$font-family-secondary: 'Lato';
-$font-size-base:        12px;
-$line-height-base:      12;
-
-
+$raleway-font:      'Raleway';
+$lato-font:         'Lato';
+$font-size-base:    12px;
+$line-height-base:  12;
 
 // Colors
 
-$accent-color:  #ff4e50;
-$white-text:    #f9f9f9;
-$header-black:  #333333;
-$grey:          #666666;
-$light-grey:    #cccccc;
-$link-color:    red;
-
-$colormask: rgba(0,0,0,0.25);
+$accent-color:  #f85c37;
+$light-grey:    #f2f2f2;
+$nav-grey:      #808080;
+$grey:          #7b7b7b;
+$deep-black:    #2f2f2f;
+$credits-black: #222222;
+$section-black: #333;
+$p-black:       #555;

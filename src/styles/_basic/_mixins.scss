@@ -39,3 +39,8 @@
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+
+@mixin background-settings{
+  background: no-repeat center center;
+  background-size: cover;
+}

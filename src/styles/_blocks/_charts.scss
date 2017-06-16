@@ -1,0 +1,14 @@
+.charts{
+  padding: 6em;
+  background-color: #e0e0e0;
+  .circle{
+    @include size(120px);
+  }
+  span{
+    font:{
+      family: $lato-font;
+      size: 16px;
+      weight: 100;
+    };
+  }
+}

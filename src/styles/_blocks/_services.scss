@@ -1,0 +1,16 @@
+.services{
+  background-color: $light-grey;
+  p{
+    font:{
+      family: $lato-font;
+      weight: 300;
+      size: 16px;
+    }
+    color: $p-black;
+    line-height: 28px;
+  }
+  .city-name{
+    color: $section-black;
+    font-size: 18px;
+  }
+}

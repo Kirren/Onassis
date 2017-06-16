@@ -1,22 +1,23 @@
 section.header
-  nav.navbar-toggleable-xs.navbar-inverse
-    button.navbar-toggler.navbar-toggler-right.collapsed
-      span.navbar-toggler-icon
-
-    div.collapse.navbar-collapse
+  nav.navbar.navbar-toggleable-xs
+    button.navbar-toggler.navbar-toggler-right(type="button",
+      data-toggle="collapse", data-target="#menu",
+      aria-controls="menu", aria-expanded="false")
+      span
+    div.collapse.navbar-collapse.navbar-inverse#menu
       a.navbar-brand onassis
-      ul
-        li
-          a(href="#home") home
-        li
-          a(href="#services") services
-        li
-          a(href="#portfolio") portfolio
-        li
-          a(href="#about") about
-        li
-          a(href="#contact") contact
-      ul.links
+      ul.navbar-nav.list-unstyled
+        li.nav-item
+          a.nav-link(href="#home") home
+        li.nav-item
+          a.nav-link(href="#services") services
+        li.nav-item
+          a.nav-link(href="#portfolio") portfolio
+        li.nav-item
+          a.nav-link(href="#about") about
+        li.nav-item
+          a.nav-link(href="#contact") contact
+      ul.links.list-unstyled
         li
           a(href="#")
         li
@@ -28,4 +29,4 @@ section.header
 
   div.headings
     h1 Onassis
-    h2 Free Bootstrap 3 Theme
+    h2 Bootstrap 4 Theme

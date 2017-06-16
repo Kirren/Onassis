@@ -1,0 +1,29 @@
+.about{
+  background-color: $light-grey;
+  .lorem {
+    line-height: 28px;
+    color: $p-black;
+    font:{
+      family: $lato-font;
+      size: 16px;
+      weight: 100;
+    }
+  }
+  .team{
+    .person{
+      @include no-side-padding;
+      img{
+        @include size(90px);
+        margin-bottom: .5rem;
+      }
+      .name, .position{
+        font-family: $raleway-font;
+        color: $section-black;
+        margin-bottom: 0;
+      }
+      .name { font-size: 18px; }
+      .position { font-size: 14px; }
+      .lorem { padding: 1em 10px; }
+    }
+  }
+}
