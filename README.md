@@ -1,13 +1,13 @@
-# Urlaubsgluck
+# Onassis
 **Single page responsive site template.**
 
 Features used:
  _ Node
-  Gulp
+  Gulp 4
   Bower
   Pug
   SCSS
-  Bootstrap
+  Bootstrap 4
   JavaScript_
   
 ## Dependencies and requirements/ Зависимости:
