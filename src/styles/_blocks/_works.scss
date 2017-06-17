@@ -1,7 +1,15 @@
 .works{
   padding: 7em 3em;
+  @include phone {
+    padding: 3em;
+  }
   @include background-settings;
   background-image: url("../img/portfolio-bg.jpg");
-  h3{ color: white; }
-  img{ background-color: transparent; }
+  h3 { color: white; }
+  img {
+    background-color: transparent;
+    @include phone {
+      margin-bottom: 20px;
+    }
+  }
 }

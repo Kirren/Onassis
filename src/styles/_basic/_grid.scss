@@ -1,1 +1,17 @@
-.page{ @include no-side-padding; }
+body {
+  @include no-side-padding;
+}
+
+.body-push {
+  overflow-x: hidden;
+  position: relative;
+  left: 0;
+}
+
+.body-push-toright {
+  left: 200px;
+}
+
+.body-push-toleft {
+  left: -200px;
+}

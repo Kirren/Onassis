@@ -2,12 +2,36 @@ section.charts
   div.container-fluid
     h3 some charts
     div.row.frameworks
-      div.col-xs-12.col-md-4.f-1
-        div.circle.mx-auto
+      div.col-xs-12.col-md-4
+        div.ko-progress-circle#javascript(data-progress="0")
+          div.ko-circle
+            div.full.ko-progress-circle__slice
+              div.ko-progress-circle__fill
+            div.ko-progress-circle__slice
+              div.ko-progress-circle__fill
+              div.ko-progress-circle__fill.ko-progress-circle__bar
+          div.ko-progress-circle__overlay
+        br
         span Javascript
-      div.col-xs-12.col-md-4.f-2
-        div.circle.mx-auto
+      div.col-xs-12.col-md-4
+        div.ko-progress-circle#bootstrap(data-progress="0")
+          div.ko-circle
+            div.full.ko-progress-circle__slice
+              div.ko-progress-circle__fill
+            div.ko-progress-circle__slice
+              div.ko-progress-circle__fill
+              div.ko-progress-circle__fill.ko-progress-circle__bar
+          div.ko-progress-circle__overlay
+        br
         span Bootstrap
-      div.col-xs-12.col-md-4.f-3
-        div.circle.mx-auto
+      div.col-xs-12.col-md-4
+        div.ko-progress-circle#wordpress(data-progress="0")
+          div.ko-circle
+            div.full.ko-progress-circle__slice
+              div.ko-progress-circle__fill
+            div.ko-progress-circle__slice
+              div.ko-progress-circle__fill
+              div.ko-progress-circle__fill.ko-progress-circle__bar
+          div.ko-progress-circle__overlay
+        br
         span Wordpress

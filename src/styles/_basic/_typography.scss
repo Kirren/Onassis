@@ -1,9 +1,11 @@
+i{ @include size(20px); }
+
 .grey-text{ color: $grey; }
 
 h3, .jumbotron{
   text-transform: uppercase;
   font:{
-    family: "Raleway";
+    family: $raleway-font;
     size: 24px;
     weight: 300;
   };

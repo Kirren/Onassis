@@ -1,32 +1,26 @@
-section.header
-  div.nav-container
-    button.btn.show-menu.col-1
-      //span.navbar-toggler-icon
-      i.fa.fa-bars(aria-hidden="true")
+nav.menu#navmenu
+  div.menu-wrapper.text-left
+    h3
+      a.navbar-brand(href="#home") onassis
+    i.fa.fa-close#menucloser
+    a(href="#home") home
+    a(href="#services") services
+    a(href="#portfolio") portfolio
+    a(href="#about") about
+    a(href="#contact") contact
+    a.social(href="#")
+      i.fa.fa-facebook
+    a.social(href="#")
+      i.fa.fa-twitter
+    a.social(href="#")
+      i.fa.fa-dribbble
+    a.social(href="#")
+      i.fa.fa-envelope
+  div#menuopener.active
+    i.fa.fa-bars
 
-    nav.bg-inverse.col-11#menu
-      a.navbar-brand(href="/#") onassis
-      ul.navbar-nav.list-unstyled
-        li.nav-item
-          a.nav-link(href="#home") home
-        li.nav-item
-          a.nav-link(href="#services") services
-        li.nav-item
-          a.nav-link(href="#portfolio") portfolio
-        li.nav-item
-          a.nav-link(href="#about") about
-        li.nav-item
-          a.nav-link(href="#contact") contact
-      ul.links.list-unstyled
-        li
-          a(href="#") fb
-        li
-          a(href="#") tw
-        li
-          a(href="#") fg
-        li
-          a(href="#") em
 
+section.header#home
   div.headings
     h1 Onassis
     h2 Bootstrap 4 Theme

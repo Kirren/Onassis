@@ -12,11 +12,12 @@
   .team{
     .person{
       @include no-side-padding;
-      img{
+      padding: 1.5em .5em !important;
+      img {
         @include size(90px);
         margin-bottom: .5rem;
       }
-      .name, .position{
+      .name, .position {
         font-family: $raleway-font;
         color: $section-black;
         margin-bottom: 0;
@@ -24,6 +25,20 @@
       .name { font-size: 18px; }
       .position { font-size: 14px; }
       .lorem { padding: 1em 10px; }
+
+      ul {
+        .list-inline-item {
+          padding: 0 0.5em;
+          i {
+            color: $accent-color;
+            &:hover { color: $nav-grey; }
+          }
+        }
+      }
+
+      &:hover {
+        background-color: white;
+      }
     }
   }
 }
