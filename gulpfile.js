@@ -39,7 +39,7 @@ var path = {
         html:   'src/html/index.pug',
         js:     'src/js/main.js',
         style:  'src/styles/main.scss',
-        assets: 'src/styles/_assets',
+        //assets: 'src/styles/_assets',
         img:    'src/img/**/*.*',
         fonts:  'src/fonts/**/*.*',
         fa:     'bower_components/fontawesome/fonts'
@@ -48,7 +48,7 @@ var path = {
         html:   'src/html/**/*.pug',
         js:     'src/js/**/*.js',
         style:  'src/styles/**/*.scss',
-        assets: 'src/styles/_assets/**/*.*',
+        //assets: 'src/styles/_assets/**/*.*',
         img:    'src/img/**/*.*',
         fonts:  'src/fonts/**/*.*'
     },
@@ -59,13 +59,14 @@ var path = {
 // Bower and FontAwesome configuration
 
 var config = {
-    sassPath:  './src/styles',
-    bowerPath: './bower_components'
+    sassPath:         './src/styles',
+    bowerPath:        './bower_components',
+    fontAwesomePath:  '/font-awesome/css/font-awesome.css'
 };
 
 gulp.task('icons', function() {
-    return gulp.src(config.bowerPath + '/font-awesome/fonts/**.*')
-        .pipe(gulp.dest('./public/fonts'));
+    return gulp.src(config.bowerPath + config.fontAwesomePath)
+        .pipe(gulp.dest('./public/css'));
 });
 
 
