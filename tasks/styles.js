@@ -19,18 +19,17 @@ module.exports = function (options) {
             $.sass({
                 sourceMap: true,
                 errLogToConsole: true,
-                loadPath: [
+                /*loadPath: [
                     './bower_components/bootstrap-sass/assets/stylesheets',
                     './bower_components/font-awesome/scss',
                     options.src
-                ],
+                ],*/
                 includePaths: require('node-bourbon').includePaths
             }).on("error", $.sass.logError),
             $.debug({title: 'sass'}),
+            //$.cleancss(),
             $.autoprefixer(),
             $.debug({title: 'autoprefixer'}),
-            $.cleancss(),
-            $.debug({title: 'cleancss'}),
             $.if(isDevelopment, $.sourcemaps.write('./maps')),
             gulp.dest(options.dst),
             reload( {stream: true} )
