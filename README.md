@@ -1,6 +1,8 @@
 # Urlaubsgluck
 **Single page responsive site template.**
 
+Preview at: https://kirren.github.io/Onassis/public/
+
 Features used:
  _ Node
   Gulp
